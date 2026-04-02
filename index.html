@@ -12,10 +12,10 @@
 
         <div class="hidden md:flex space-x-8 mr-[4%] text-[1.3rem]">
             <a href="#about" class="cursor-pointer hover:underline">About</a>
-            <h2 class="cursor-pointer">Experience</h2>
-            <h2 class="cursor-pointer">Projects</h2>
-            <h2 class="cursor-pointer">Skills</h2>
-            <h2 class="cursor-pointer">Contact</h2>
+            <a href="#experience" class="cursor-pointer hover:underline">Experience</a>
+            <a href="#projects" class="cursor-pointer hover:underline">Projects</a>
+            <a href="#skills" class="cursor-pointer hover:underline">Skills</a>
+            <a href="#contact" class="cursor-pointer hover:underline">Contact</a>
         </div>
 
         <button id="menu-btn" class="md:hidden block focus:outline-none">
@@ -26,10 +26,10 @@
 
         <div id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-white text-black flex-col items-center shadow-xl">
             <a href="#about" class="cursor-pointer hover:underline">About</a>
-            <h2 class="cursor-pointer p-2 font-serif">Experience</h2>
-            <h2 class="cursor-pointer p-2 font-serif">Projects</h2>
-            <h2 class="cursor-pointer p-2 font-serif">Skills</h2>
-            <h2 class="cursor-pointer p-2 font-serif">Contact</h2>
+            <a href="#experience" class="cursor-pointer hover:underline">Experience</a>
+            <a href="#projects" class="cursor-pointer hover:underline">Projects</a>
+            <a href="#skills" class="cursor-pointer hover:underline">Skills</a>
+            <a href="#contact" class="cursor-pointer hover:underline">Contact</a>
         </div>
     </nav>
     <!-- Intro -->
@@ -41,8 +41,58 @@
         >
     </div>
     <!-- About -->
-    <div class="relative w-full h-screen h-[60vh] flex">
-        <section id="about" class="scroll-mt-10 py-20" class="p-12">01-ABOUT</section>
+    <div class="relative w-full min-h-[100vh] flex flex-col p-12">
+        <section id="about" class="scroll-mt-25">01 - ABOUT</section>
+        <div class="flex flex-1 pb-5">
+            <h2 class="text-black text-4xl pt-5 pb-5">Profile</h2>
+        </div>
+        <div class="border-b-1">
+            <p class="mb-6 text-2xl">
+                I'm an architecture student with a deep passion for urban development — how cities grow, adapt, and make room for people. My focus lies in designing parks, neighborhoods, and public spaces that work within tight, complex urban environments like those found in Göteborg.
+            </p>
+            <p class="text-2xl mb-8">
+                Through studio projects, design competitions, and coursework in sustainable urbanism, I'm building the skills to bridge architectural vision with real-world city-building. I thrive on the challenge of turning constrained sites into vibrant, livable places.
+            </p>
+        </div>
+        <div class="flex flex-1 flex-col md:flex-row mt-6 mb-6">
+            <div class="flex flex-1 flex-col justify-center">
+                <h2 class="text-5xl">6</h2>
+                <p class="text-2xl">Studio Projects</p>
+            </div>
+            <div class="flex flex-1 flex-col justify-center">
+                <h2 class="text-5xl">2</h2>
+                <p class="text-2xl">Competitions Entered</p>
+            </div>
+            <div class="flex flex-1 flex-col justify-center">
+                <h2 class="text-5xl">1</h2>
+                <p class="text-2xl">Internship</p>
+            </div>
+        </div>
+    </div>
+    <!-- Experience -->
+    <div class="relative w-full min-h-[100vh] flex flex-col p-12 bg-amber-100">
+        <section id="experience" class="scroll-mt-25 flex flex-col border-b-1">02 - EXPERIENCE
+            <h2 class="text-4xl">Internships & Activities</h2>
+        </section>
+        <div class="flex flex-1 bg-white border-b-1"></div>
+        <div class="flex flex-1 bg-black border-b-1"></div>
+        <div class="flex flex-1 bg-white border-b-1"></div>
+    </div>
+    <!-- Projects -->
+    <div class="relative w-full h-screen h-[60vh] flex flex-col p-12">
+        <section id="projects" class="scroll-mt-10 py-20" class="p-12">03 - PROJECTS</section>
+    </div>
+    <!-- Skills -->
+    <div class="relative w-full h-screen h-[60vh] flex flex-col p-12">
+        <section id="skills" class="scroll-mt-10 py-20" class="p-12">04 - SKILLS</section>
+    </div>
+    <!-- Education -->
+    <div class="relative w-full h-screen h-[60vh] flex flex-col p-12">
+        <section id="contact" class="scroll-mt-10 py-20" class="p-12">05 - EDUCATION</section>
+    </div>
+    <!-- Contact -->
+    <div class="relative w-full h-screen h-[60vh] flex flex-col p-12">
+        <section id="contact" class="scroll-mt-10 py-20" class="p-12">06 - CONTACT</section>
     </div>
     
 
