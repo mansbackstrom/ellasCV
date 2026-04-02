@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Måns Bäckström - CV</title>
-  <script type="module" crossorigin src="./assets/index-DZwcMpDP.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-C_yTcSQ1.css">
+  <script type="module" crossorigin src="./assets/index-BvmFqmKr.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BxmKTE6W.css">
 </head>
-<body class="bg-gray-100">
+<body class="bg-white min-h-screen flex flex-col">
+    <!--Nav-->
+    <nav id="main-nav" class="fixed top-0 left-0 w-full z-50 h-16 flex items-center justify-between px-10 transition-all duration-300 text-white">
+        <h2 class="font-bold text-3xl ml-[3%]">CV</h2>
+
+        <div class="hidden md:flex space-x-8 mr-[5%] text-[1.3rem]">
+            <h2 class="cursor-pointer font-serif">About</h2>
+            <h2 class="cursor-pointer font-serif">Experience</h2>
+            <h2 class="cursor-pointer font-serif">Projects</h2>
+            <h2 class="cursor-pointer font-serif">Skills</h2>
+            <h2 class="cursor-pointer font-serif">Contact</h2>
+        </div>
+
+        <button id="menu-btn" class="md:hidden block focus:outline-none">
+            <svg class="w-8 h-8" fill="none" stroke="red" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <div id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-white text-black flex-col items-center shadow-xl">
+            <h2 class="cursor-pointer p-2 font-serif">About</h2>
+            <h2 class="cursor-pointer p-2 font-serif">Experience</h2>
+            <h2 class="cursor-pointer p-2 font-serif">Projects</h2>
+            <h2 class="cursor-pointer p-2 font-serif">Skills</h2>
+            <h2 class="cursor-pointer p-2 font-serif">Contact</h2>
+        </div>
+    </nav>
+    <div class="relative w-full h-screen h-[60vh]">
+        
+        <div class="absolute inset-0 z-10 pointer-events-none shadow-[inset_0_0_100px_rgba(0,0,0,0.99)]"></div>
+        <img src="hero-urban.jpg" alt="Hero Image" 
+            class="w-full h-full object-cover object-center"
+        >
+    </div>
     <div id="app">
         <h1 class="text-3xl font-bold text-blue-600">Välkommen till mitt CV</h1>
     </div>
+    
 
 </body>
 </html>
+
