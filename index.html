@@ -7,25 +7,46 @@
 </head>
 <body class="bg-white min-h-screen flex flex-col">
     <!--Nav-->
-    <div class="h-10 bg-amber-200 flex">
-        <div class="flex flex-1 bg-amber-400 items-center"><h2 class="p-4 ml-10">CV</h2></div>
-        <div class="flex flex-1 bg-amber-900 items-center justify-end">
-            <h2 class="p-4">About</h2>
-            <h2 class="p-4">Experience</h2>
-            <h2 class="p-4">Projects</h2>
-            <h2 class="p-4">Skills</h2>
-            <h2 class="p-4 mr-12">Contact</h2>
+    <nav id="main-nav" class="fixed top-0 left-0 w-full z-50 h-16 flex items-center justify-between px-10 transition-all duration-300 text-white">
+        <h2 class="font-bold text-3xl ml-[3%] font-serif">CV</h2>
+
+        <div class="hidden md:flex space-x-8 mr-[4%] text-[1.3rem]">
+            <a href="#about" class="cursor-pointer hover:underline">About</a>
+            <h2 class="cursor-pointer">Experience</h2>
+            <h2 class="cursor-pointer">Projects</h2>
+            <h2 class="cursor-pointer">Skills</h2>
+            <h2 class="cursor-pointer">Contact</h2>
         </div>
-    </div>
-    <div class="flex flex-1">
+
+        <button id="menu-btn" class="md:hidden block focus:outline-none">
+            <svg class="w-8 h-8" fill="none" stroke="red" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <div id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-white text-black flex-col items-center shadow-xl">
+            <a href="#about" class="cursor-pointer hover:underline">About</a>
+            <h2 class="cursor-pointer p-2 font-serif">Experience</h2>
+            <h2 class="cursor-pointer p-2 font-serif">Projects</h2>
+            <h2 class="cursor-pointer p-2 font-serif">Skills</h2>
+            <h2 class="cursor-pointer p-2 font-serif">Contact</h2>
+        </div>
+    </nav>
+    <!-- Intro -->
+    <div class="relative w-full h-screen h-[60vh]">
+        
+        <div class="absolute inset-0 z-10 pointer-events-none shadow-[inset_0_0_100px_rgba(0,0,0,0.99)]"></div>
         <img src="hero-urban.jpg" alt="Hero Image" 
-            class="w-full h-full object-cover object-center">
+            class="w-full h-full object-cover object-center"
+        >
     </div>
-    <div id="app">
-        <h1 class="text-3xl font-bold text-blue-600">Välkommen till mitt CV</h1>
+    <!-- About -->
+    <div class="relative w-full h-screen h-[60vh] flex">
+        <section id="about" class="scroll-mt-10 py-20" class="p-12">01-ABOUT</section>
     </div>
     
 
     <script type="module" src="/src/client/main.ts"></script>
 </body>
 </html>
+

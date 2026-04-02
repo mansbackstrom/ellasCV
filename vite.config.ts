@@ -8,7 +8,7 @@ export default defineConfig({
         tailwindcss(),
         ViteEjsPlugin({
       // Här kan du lägga in data som du vill använda i din HTML
-            title: "Måns Bäckström - CV",
+            title: "Ella Bäckström - CV",
         }),
     ],
     build: {
