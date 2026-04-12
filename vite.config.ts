@@ -9,11 +9,27 @@ export default defineConfig({
         ViteEjsPlugin({
       // Här kan du lägga in data som du vill använda i din HTML
             title: "Ella Bäckström - CV",
-            user: {
-                phone: "+46768001636",
-                email: "ellabackstrom02@gmail.com",
-                location: "Malmö Sweden",
-                linkedin: "https://www.linkedin.com/in/ella-b%C3%A4ckstr%C3%B6m-939969265/"
+            seomain: "Ella Bäckström — Curriculum Vitae",
+            secT: {
+                one: "01 - om",
+                two: "02 - erfarenhet",
+                thr: "03 - akademiskt arbete",
+                fou: "04 - färdigheter",
+                fiv: "05 - kontakt",
+            },
+            profile: {
+                title: "Profil",
+
+                text: "Studerar i Lund",
+
+                amount: "x",
+                stat: "-",
+
+                amount1: "x",
+                stat1: "-",
+
+                amount2: "x",
+                stat2: "-",
             },
             experience: {
                 title: "Akademisk Bakgrund",
@@ -72,6 +88,12 @@ export default defineConfig({
                     "Engelska",
                     "Svenska",
                 ],
+            },
+            user: {
+                phone: "+46768001636",
+                email: "ellabackstrom02@gmail.com",
+                location: "Malmö Sweden",
+                linkedin: "https://www.linkedin.com/in/ella-b%C3%A4ckstr%C3%B6m-939969265/"
             },
         }),
     ],
