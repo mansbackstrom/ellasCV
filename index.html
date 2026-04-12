@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ella Bäckström - CV</title>
-  <script type="module" crossorigin src="./assets/index-jT8k4n2k.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-C1Nt-40z.css">
+  <script type="module" crossorigin src="./assets/index-1hk2rPgQ.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CP3XWm6d.css">
 </head>
 <body class="bg-white min-h-screen flex flex-col">
     <!--Nav-->
     <nav id="main-nav" class="fixed top-0 left-0 w-full z-50 h-16 flex items-center justify-between px-10 transition-all duration-300 text-white">
         <h2 class="font-bold text-3xl ml-[3%] font-serif">CV</h2>
 
-        <div class="hidden md:flex space-x-8 mr-[4%] text-[1.3rem]">
-            <a href="#about" class="cursor-pointer hover:underline">About</a>
-            <a href="#experience" class="cursor-pointer hover:underline">Erfarenhet</a>
-            <a href="#projects" class="cursor-pointer hover:underline">Projects</a>
+        <div class="hidden md:flex space-x-8 mr-[4%] text-[1.3rem] font-serif">
+            <a href="#om" class="cursor-pointer hover:underline">Profil</a>
+            <a href="#erfarenhet" class="cursor-pointer hover:underline">Erfarenhet</a>
+            <a href="#projekt" class="cursor-pointer hover:underline">Projekt</a>
             <a href="#skills" class="cursor-pointer hover:underline">Skills</a>
-            <a href="#contact" class="cursor-pointer hover:underline">Contact</a>
+            <a href="#kontact" class="cursor-pointer hover:underline">Kontakt</a>
         </div>
 
         <button id="menu-btn" class="md:hidden block focus:outline-none">
@@ -26,54 +26,66 @@
             </svg>
         </button>
 
-        <div id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-white text-black flex-col items-center shadow-xl">
-            <a href="#about" class="cursor-pointer hover:underline">About</a>
-            <a href="#experience" class="cursor-pointer hover:underline">Erfarenhet</a>
-            <a href="#projects" class="cursor-pointer hover:underline">Projects</a>
+        <div id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-white text-black flex-col items-center shadow-xl font-serif">
+            <a href="#om" class="cursor-pointer hover:underline">Om</a>
+            <a href="#erfarenhet" class="cursor-pointer hover:underline">Erfarenhet</a>
+            <a href="#projekt" class="cursor-pointer hover:underline">Projekt</a>
             <a href="#skills" class="cursor-pointer hover:underline">Skills</a>
-            <a href="#contact" class="cursor-pointer hover:underline">Contact</a>
+            <a href="#kontakt" class="cursor-pointer hover:underline">Kontakt</a>
         </div>
     </nav>
     <!-- Intro -->
-    <div class="relative w-full h-screen h-[60vh]">
+    <div class="relative w-full h-screen h-[60vh] flex items-end p-6 md:p-24">
         
         <div class="absolute inset-0 z-10 pointer-events-none shadow-[inset_0_0_100px_rgba(0,0,0,0.99)]"></div>
         <img src="hero-urban.jpg" alt="Hero Image" 
-            class="w-full h-full object-cover object-center"
+            class="w-full h-full object-cover object-center absolute inset-0"
         >
+        <div class="relative z-20 text-white py-6 md:py-0" >
+            <h1 class="text-3xl md:text-3xl font-bold font-serif drop-shadow-lg">
+                Ella Bäckström — Curriculum Vitae
+            </h1>
+        </div>
     </div>
     <!-- About -->
     <div class="relative w-full min-h-[100vh] flex flex-col p-12">
-        <section id="about" class="scroll-mt-25"><h2 class="text-black opacity-50 text-sm tracking-widest uppercase">01 - ABOUT</h2></section>
-        <div class="flex flex-1 pb-5">
-            <h2 class="text-black text-4xl pt-5 pb-5">Profile</h2>
-        </div>
-        <div class="border-b-1">
+        <section id="om" class="scroll-mt-25">
+            <p class="text-black opacity-50 text-sm tracking-widest uppercase">
+                01 - om
+            </p>
+            <h2 class="text-black text-4xl font-serif">
+                Profil
+            </h2>
+        </section>
+        <div class="flex flex-1 border-b-1 items-end">
             <p class="mb-6 text-2xl">
-                I'm an architecture student with a deep passion for urban development — how cities grow, adapt, and make room for people. My focus lies in designing parks, neighborhoods, and public spaces that work within tight, complex urban environments like those found in Göteborg.
+                Studerar i Lund
             </p>
             <p class="text-2xl mb-8">
-                Through studio projects, design competitions, and coursework in sustainable urbanism, I'm building the skills to bridge architectural vision with real-world city-building. I thrive on the challenge of turning constrained sites into vibrant, livable places.
+                
             </p>
         </div>
         <div class="flex flex-1 flex-col md:flex-row mt-6 mb-6">
             <div class="flex flex-1 flex-col justify-center">
-                <h2 class="text-5xl">6</h2>
-                <p class="text-2xl">Studio Projects</p>
+                <p class="text-5xl">x</p>
+                <p class="text-2xl">-</p>
             </div>
             <div class="flex flex-1 flex-col justify-center">
-                <h2 class="text-5xl">2</h2>
-                <p class="text-2xl">Competitions Entered</p>
+                <p class="text-5xl">x</p>
+                <p class="text-2xl">-</p>
             </div>
             <div class="flex flex-1 flex-col justify-center">
-                <h2 class="text-5xl">1</h2>
-                <p class="text-2xl">Internship</p>
+                <p class="text-5xl">x</p>
+                <p class="text-2xl">-</p>
             </div>
         </div>
     </div>
     <!-- Experience -->
     <div class="relative w-full min-h-[100vh] flex flex-col p-12 bg-amber-100">
-        <section id="experience" class="scroll-mt-25 flex flex-col pb-16"><h2 class="text-black opacity-50 text-sm tracking-widest uppercase">02 - erfarenhet</h2>
+        <section id="erfarenhet" class="scroll-mt-25 flex flex-col pb-16">
+            <p class="text-black opacity-50 text-sm tracking-widest uppercase">
+                02 - erfarenhet
+            </p>
             <h2 class="text-4xl text-slate-800 font-serif">Akademisk Bakgrund</h2>
         </section>
         <div class="flex flex-1 border-b-1 py-8 flex-col border-t-1">
@@ -143,121 +155,162 @@
     </div>
     <!-- Projects -->
     <div class="relative w-full min-h-[100vh] md:h-screen md:h-[60vh] flex flex-col p-12">
-        <section id="projects" class="scroll-mt-25 flex flex-col pb-4"><h2 class="text-black opacity-50 text-sm tracking-widest uppercase">03 - ACADEMIC WORK</h2>
+        <section id="projekt" class="scroll-mt-25 flex flex-col pb-4"><p class="text-black opacity-50 text-sm tracking-widest uppercase">03 - akademiskt arbete</p>
             <h2 class="text-4xl">Studio & Competitions</h2>
         </section>
         <div class="flex flex-1 min-h-0 pb-4 md:flex-row flex-col">
             <div class="flex flex-1 flex-col items-center overflow-hidden md:flex-col py-4 md:py-0">
-                <img src="SketchUp_3D rendering 4.1 (2).png" alt="" class="w-full md:w-120 h-full object-cover">
-                <h3 class="text-slate-800 font-merriweather">Rosen Gården — </h3>
+                <img src="ovanR.jpg" alt="" class="w-full md:w-120 h-full object-cover">
+                <h3 class="text-slate-800 font-merriweather">1</h3>
             </div>
-            <div class="flex flex-1 flex-col items-center md:flex-col py-4 md:py-0">
-                <video 
-                    src=".MOV" 
-                    autoplay 
-                    muted 
-                    loop 
-                    playsinline 
-                    class="w-full md:w-120 h-full object-cover">
-                </video>
-                <h3 class="text-slate-800 font-merriweather">Åre Skuttan — </h3>
+            <div class="flex flex-1 flex-col items-center overflow-hidden md:flex-col py-4 md:py-0">
+                <img src="ovanR.jpg" alt="" class="w-full md:w-120 h-full object-cover">
+                <h3 class="text-slate-800 font-merriweather">2</h3>
             </div>
         </div>
 
         <div class="flex flex-1 min-h-0 md:flex-row flex-col">
             <div class="flex flex-1 flex-col items-center py-4 md:py-0">
-                <img src="IMG_8700.jpg" alt="" class="w-full h-full md:w-120 object-cover">
-                <h3 class="text-slate-800 font-merriweather">Vietnam — </h3>
+                <img src="ovanR.jpg" alt="" class="w-full h-full md:w-120 object-cover">
+                <h3 class="text-slate-800 font-merriweather">3</h3>
             </div>
             <div class="flex flex-1 flex-col items-center py-4 md:py-0">
-                <img src=".JPEG" alt="" class="w-full h-full md:w-120 object-cover">
-                <h3 class="text-slate-800 font-merriweather">Ronneby — </h3>
+                <a href="/bildgalleria" class="w-full md:w-120">
+                    <img src="ovanR.jpg" alt="" class="w-full h-full md:w-120 object-cover">
+                </a>
+                <h3 class="text-slate-800 font-merriweather">4</h3>
             </div>
         </div>
     </div>
     <!-- Skills -->
-    <div class="relative w-full min-h-[100vh] flex flex-col p-12 bg-amber-100">
-        <section id="skills" class="scroll-mt-25 flex flex-col pb-4"><h2 class="text-black opacity-50 text-sm tracking-widest uppercase">04 - färdigheter</h2>
+    <div class="relative w-full min-h-[60vh] flex flex-col p-12 bg-amber-100">
+        <section id="skills" class="scroll-mt-25 flex flex-col pb-4">
+            <p class="text-black opacity-50 text-sm tracking-widest uppercase">
+                04 - färdigheter
+            </p>
             <h2 class="text-4xl">Färdigheter & Redskap</h2>
         </section>
-        <div class="flex flex-1 md:flex-row flex-col">
+        <div class="flex flex-1 md:flex-row flex-col mb-35">
             <div class="flex flex-1 flex-col md:pr-4">
-                <h3 class="text-2xl pt-4 text-slate-800 font-poppins py-4 md:pb-4">Verktyg och Program</h3>
+                <h3 class="text-2xl pt-4 text-slate-800 font-poppins py-4 md:pb-4">
+                    Verktyg och Program
+                </h3>
                 <div>
                 
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">Adobe Illustrator</p>
+                    <p class="text-amber-700 font-merriweather border-slate-800 font-merriweather border-b-1 py-2">
+                        Adobe Illustrator
+                    </p>
                 
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">Adobe InDesign</p>
+                    <p class="text-amber-700 font-merriweather border-slate-800 font-merriweather border-b-1 py-2">
+                        Adobe InDesign
+                    </p>
                 
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">Adobe Photoshop</p>
+                    <p class="text-amber-700 font-merriweather border-slate-800 font-merriweather border-b-1 py-2">
+                        Adobe Photoshop
+                    </p>
                 
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">AutoCad</p>
+                    <p class="text-amber-700 font-merriweather border-slate-800 font-merriweather border-b-1 py-2">
+                        AutoCad
+                    </p>
                 
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">SketchUp</p>
+                    <p class="text-amber-700 font-merriweather border-slate-800 font-merriweather border-b-1 py-2">
+                        SketchUp
+                    </p>
                 
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">Rhino</p>
+                    <p class="text-amber-700 font-merriweather border-slate-800 font-merriweather border-b-1 py-2">
+                        Rhino
+                    </p>
                 
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">ArcGIS</p>
+                    <p class="text-amber-700 font-merriweather border-slate-800 font-merriweather border-b-1 py-2">
+                        ArcGIS
+                    </p>
                 
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">Twinmotion</p>
+                    <p class="text-amber-700 font-merriweather border-slate-800 font-merriweather border-b-1 py-2">
+                        Twinmotion
+                    </p>
                 
                 </div>
             </div>
             <div class="flex flex-1 flex-col md:pr-4">
-                <h3 class="text-2xl pt-4 text-slate-800 font-poppins py-4 md:pb-4">Design Inriktning</h3>
-                <div>
-                
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">Fysisk Planering</p>
-                
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">Urban Design</p>
-                
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">Landskapsarkitektur</p>
-                
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">Klimatsmart Arkitektur</p>
-                
+                <div class="flex flex-1 flex-col">
+                    <h3 class="text-2xl pt-4 text-slate-800 font-poppins py-4 md:pb-4">
+                        Design Inriktning
+                    </h3>
+                    <div>
+                    
+                        <p class="text-amber-700 font-merriweather border-slate-800 border-b-1 py-2">
+                            Fysisk Planering
+                        </p>
+                    
+                        <p class="text-amber-700 font-merriweather border-slate-800 border-b-1 py-2">
+                            Urban Design
+                        </p>
+                    
+                        <p class="text-amber-700 font-merriweather border-slate-800 border-b-1 py-2">
+                            Landskapsarkitektur
+                        </p>
+                    
+                        <p class="text-amber-700 font-merriweather border-slate-800 border-b-1 py-2">
+                            Klimatsmart Arkitektur
+                        </p>
+                    
+                    </div>
+                </div>
+                <div class="flex flex-1 flex-col justify-end">
+                    <h3 class="text-2xl pt-4 text-slate-800 font-poppins py-4 md:pb-4">
+                        Språk
+                    </h3>
+                    <div>
+                    
+                        <p class="text-amber-700 font-merriweather border-slate-800 font-merriweather border-b-1 py-2">
+                            Engelska
+                        </p>
+                    
+                        <p class="text-amber-700 font-merriweather border-slate-800 font-merriweather border-b-1 py-2">
+                            Svenska
+                        </p>
+                    
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="flex flex-1 md:flex-row flex-col">
-            <div class="flex flex-1 flex-col md:pr-4">
-                <h3 class="text-2xl pt-4 text-slate-800 font-poppins py-4 md:pb-4">Språk</h3>
-                <div>
-                
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">Engelska</p>
-                
-                    <p class="text-slate-800 font-merriweather border-b-1 py-2">Svenska</p>
-                
-                </div>
-            </div>
-            <div class="flex flex-1 md:flex-row flex-col"></div>
         </div>
     </div>
     <!-- Contact -->
-    <div class="relative w-full h-screen h-[60vh] flex flex-col p-12 bg-[#302C29]">
-        <section id="contact" class="scroll-mt-25 py-16"><h2 class="text-white opacity-50 text-sm tracking-widest uppercase">06 - contact</h2></section>
-        <div class="flex flex-1 flex-col">
-            <h2 class="text-white opacity-50 uppercase text-sm">telefonnummer</h2>
-            <a href="tel:+46768001636" class="text-blue-600 hover:underline">
-                +46768001636
-            </a>
-        </div>
-        <div class="flex flex-1 flex-col">
-            <h2 class="text-white opacity-50 uppercase text-sm">email</h2>
-            <a href="mailto:ellabackstrom02@gmail.com" class="text-blue-600 hover:underline">
-                ellabackstrom02@gmail.com
-            </a>
-        </div>
-        <div class="flex flex-1 flex-col">
-            <h2 class="text-white opacity-50 uppercase text-sm">plats</h2>
-            <p class="text-slate-200">
-                Malmö Sweden
-            </p>
-        </div>
-        <div class="flex flex-1 flex-col">
-            <h2 class="text-white opacity-50 uppercase text-sm">linkedin</h2>
-            <a href="https://www.linkedin.com/in/ella-b%C3%A4ckstr%C3%B6m-939969265/" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-                https://www.linkedin.com/in/ella-b%C3%A4ckstr%C3%B6m-939969265/
-            </a>
+    <div class="relative w-full min-h-screen md:min-h-[60vh] flex flex-col p-12 bg-[#302C29]">
+        <section id="kontakt" class="scroll-mt-25 pb-12">
+            <h2 class="text-white opacity-50 text-sm tracking-widest uppercase">
+                05 - kontakt
+            </h2>
+        </section>
+        <div class="flex flex-col md:flex-row">
+            <div class="flex flex-col flex-1">
+                <div class="flex flex-1 flex-col py-8">
+                    <h3 class="text-white opacity-50 text-sm font-serif">Telefonnummer</h3>
+                    <a href="tel:+46768001636" class="text-blue-600 hover:underline">
+                        +46768001636
+                    </a>
+                </div>
+                <div class="flex flex-1 flex-col">
+                    <h3 class="text-white opacity-50 text-sm font-serif">Mejl</h3>
+                    <a href="mailto:ellabackstrom02@gmail.com" class="text-blue-600 hover:underline">
+                        ellabackstrom02@gmail.com
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-col flex-1">
+                <div class="flex flex-1 flex-col py-8">
+                    <h3 class="text-white opacity-50 text-sm font-serif">Plats</h3>
+                    <p class="text-slate-200">
+                        Malmö Sweden
+                    </p>
+                </div>
+                <div class="flex flex-1 flex-col">
+                    <h3 class="text-white opacity-50 text-sm font-serif">Linkedin</h3>
+                    <a href="https://www.linkedin.com/in/ella-b%C3%A4ckstr%C3%B6m-939969265/" class="text-blue-600 font-poppins hover:underline" target="_blank" rel="noopener noreferrer">
+                        Besök min LinkedIn-profil
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     
